@@ -1,0 +1,39 @@
+*{
+    background-color: lightblue;
+}
+
+
+/* body{
+    background-color: red;
+} */
+
+h4{
+    font-size: 20px;
+}
+
+
+/* .mid-text{
+    font-weight: bolder;
+    font-size: medium;
+} */
+
+/* #head-text{
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+} */
+
+/* div span{
+    color: cadetblue;
+}
+
+a:visited{
+    color: red;
+} */
+
+div :first-child{
+    color: red;
+}
+
+div::before{
+    content: 'hello';
+}

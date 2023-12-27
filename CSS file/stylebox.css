@@ -1,0 +1,15 @@
+html{
+    box-sizing: border-box;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+#demo{
+    width: 200px;
+    border: solid red 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+

@@ -12,9 +12,9 @@ html{
     height: 500px;
     /* flex-direction: row; */
     flex-flow: nowrap;
-    justify-content: start;
-    align-items: start;
-    align-content: start;
+    justify-content: center;
+    /* align-items: start;
+    align-content: start; */
 }
 
 #parent div{
@@ -26,14 +26,14 @@ html{
     max-height: 100px;
 }
 
-#child1{
+/* #child1{
     flex-basis: 100%;
-}
+} */
 
-#child1{
+/* #child1{
     flex-grow: 1;
 }
 
 #child2{
     flex-grow: 1;
-}
+} */

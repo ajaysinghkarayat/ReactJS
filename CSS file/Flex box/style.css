@@ -13,8 +13,8 @@ html{
     /* flex-direction: row; */
     flex-flow: nowrap;
     justify-content: start;
-    /* align-items: start;
-    align-content: start; */
+    align-items: start;
+    align-content: start;
 }
 
 #parent div{
@@ -28,4 +28,12 @@ html{
 
 #child1{
     flex-basis: 100%;
+}
+
+#child1{
+    flex-grow: 1;
+}
+
+#child2{
+    flex-grow: 1;
 }

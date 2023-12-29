@@ -9,10 +9,23 @@ html{
 #parent{
     border: solid red 10px;
     display: flex;
+    height: 500px;
+    /* flex-direction: row; */
+    flex-flow: nowrap;
+    justify-content: start;
+    /* align-items: start;
+    align-content: start; */
 }
 
 #parent div{
     border: solid blue 2px;
     padding: 20px;
     background-color: bisque;
+    min-width: 100px;
+    /* max-width: 200px; */
+    max-height: 100px;
+}
+
+#child1{
+    flex-basis: 100%;
 }
